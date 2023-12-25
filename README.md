@@ -74,6 +74,29 @@ Os parâmetros das Redes
 |:---:|:---:|
 | METRICAS DO MONT | MATRIZ DE CONFUSAO DO MONT |
 
+- Resultados da Predicoes com VGG_BASE
+
+| ![Imagem 1](graficos/VGG_test_metricas.png) | ![Imagem 2](graficos/VGG_teste_confusion.png) |
+|:---:|:---:|
+| METRICAS DO TESTE | MATRIZ DE CONFUSAO DO TESTE |
+
+- Resultados com a MONT com VGG_BASE
+
+| ![Imagem 1](graficos/VGG_valid_metricas.png) | ![Imagem 2](graficos/VGG_valid_confusion.png) |
+|:---:|:---:|
+| METRICAS DO MONT | MATRIZ DE CONFUSAO DO MONT |
+
+- Resultados da Predicoes com CVT
+
+| ![Imagem 1](graficos/CVT_test_metricas.png) | ![Imagem 2](graficos/CVT_teste_confusion.png) |
+|:---:|:---:|
+| METRICAS DO TESTE | MATRIZ DE CONFUSAO DO TESTE |
+
+- Resultados com a MONT com CVT
+
+| ![Imagem 1](graficos/CVT_valid_metricas.png) | ![Imagem 2](graficos/CVT_valid_confusion.png) |
+|:---:|:---:|
+| METRICAS DO MONT | MATRIZ DE CONFUSAO DO MONT |
 ## Conclusion <a name = "conclusion"></a>
 
 Apesar dos resultados a VGG16 continua sendo melhor devido a estabilidade de seu aprendizado, mas as alteracoes nao apresentaram resultados ruins com  tamanho e tempo de execucoes menores.
